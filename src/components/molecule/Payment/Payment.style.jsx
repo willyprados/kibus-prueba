@@ -4,8 +4,15 @@ import { media } from "@/styles/mixins/media";
 export const Wrapper = styled.span`
   display: block;
   margin: 40px 0;
+  ${media.tablet} {
+    margin: 70px 0 0 0;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
   ${media.desktop} {
     margin: 45px 0 0;
+    grid-column: auto;
+    grid-row: auto;
   }
 `;
 

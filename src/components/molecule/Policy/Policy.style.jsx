@@ -5,6 +5,9 @@ export const Wrapper = styled.span`
   display: flex;
   flex-direction: column;
   margin: 35px 0;
+  ${media.tablet} {
+    margin: 80px 0 0;
+  }
   ${media.desktop} {
     margin: 45px 0 0;
   }

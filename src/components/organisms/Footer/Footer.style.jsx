@@ -19,6 +19,9 @@ export const WrapperContent = styled.div`
     display: grid;
     margin: 45px 0 100px;
     padding: 0 16px;
+    ${media.tablet} {
+      grid-template-columns: repeat(2, 1fr);
+    }
     ${media.desktop} {
       grid-template-columns: 400px repeat(3, 1fr);
       margin: 0 auto;

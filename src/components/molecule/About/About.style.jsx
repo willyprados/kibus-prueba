@@ -4,6 +4,9 @@ import { media } from "@/styles/mixins/media";
 export const Wrapper = styled.span`
   display: block;
   margin: 35px 0;
+  ${media.tablet} {
+    padding: 0 20px 0 0;
+  }
   ${media.desktop} {
     margin: 0;
     padding: 0 24px 0 0;
