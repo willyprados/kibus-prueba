@@ -6,7 +6,7 @@ export const Anchor = styled.a`
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid orange;
+    border: 1px solid ${theme.colors.primary};
     font-weight: 600;
     width: 100%;
     text-align: center;
@@ -24,6 +24,12 @@ export const Anchor = styled.a`
       margin: 0 0 0 16px;
     }
     :hover {
+      border: 1px solid ${theme.colors.gray};
+      color: ${theme.colors.gray};
+      svg {
+        border: 1px solid ${theme.colors.gray};
+        transition: 0.6s;
+      }
       filter: contrast(200%);
     }
     ${media.tablet} {

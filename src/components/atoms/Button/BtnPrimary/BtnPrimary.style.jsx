@@ -16,6 +16,7 @@ export const Anchor = styled.a`
     text-decoration: none;
     :hover {
       filter: opacity(85%);
+      transition: 0.6s;
     }
     ${media.tablet} {
       width: 90%;
