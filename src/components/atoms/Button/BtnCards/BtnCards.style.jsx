@@ -25,8 +25,8 @@ export const Anchor = styled.a`
       transition: 0.6s;
     }
     ${media.desktop} {
-      padding: 15px;
       margin: 0;
+      width: 70%;
       svg {
         width: 16px;
         height: 16px;

@@ -6,7 +6,7 @@ export const Wrapper = styled.span`
     display: block;
     align-self: center;
     border-radius: 20px;
-    width: 220px;
+    width: 240px;
     color: ${theme.colors.gray};
     margin: 0 16px 0 0;
     ${media.desktop} {

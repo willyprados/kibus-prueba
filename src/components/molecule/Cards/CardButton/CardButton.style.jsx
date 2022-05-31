@@ -8,7 +8,7 @@ export const Wrapper = styled.span`
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    width: 220px;
+    width: 240px;
     color: ${theme.colors.gray};
     margin: 0 16px 0 0;
     ${media.desktop} {
