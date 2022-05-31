@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://willyprados.github.io/PW/">
-    <img alt="Kibus Logo" src="/assets/img/logo_primary_color.svg" width="100" />
+    <img alt="Kibus Logo" src="public/assets/img/logo_primary_color.svg" width="100" />
   </a>
 </p>
 <h1 align="center">
