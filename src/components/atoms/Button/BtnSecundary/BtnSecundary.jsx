@@ -5,7 +5,7 @@ import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
 const BtnSecundary = () => {
   return (
-    <Anchor theme={theme} href="">
+    <Anchor theme={theme} href="#footer">
       Quiero saber más <FontAwesomeIcon icon={faAngleRight} />
     </Anchor>
   );

@@ -3,7 +3,7 @@ import theme from "@/theme/theme";
 
 const BtnPrimary = () => {
   return (
-    <Anchor theme={theme} href="">
+    <Anchor theme={theme} href="#footer">
       Reserva Ahora
     </Anchor>
   );

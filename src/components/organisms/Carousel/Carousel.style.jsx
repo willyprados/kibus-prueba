@@ -37,7 +37,6 @@ export const WrapperCards = styled.div`
     box-shadow: 0px 14px 37px 19px rgba(126, 126, 126, 0.08);
     margin: 16px 24px 0;
     overflow-x: auto;
-    width: 100%;
     ${media.desktop} {
       display: flex;
       justify-content: space-around;
