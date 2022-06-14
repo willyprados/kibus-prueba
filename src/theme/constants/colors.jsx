@@ -4,6 +4,7 @@ const COLORS = Object.freeze({
   secundary: "#1D1D11",
   sGradient: "linear-gradient(180deg, #515151 0%, #1D1D11 49.32%)",
   secundaryBkg: "#FEF9F7",
+  darkBkg: "#111111",
   gray: "#767676",
   grayLight: "#F9F9F9",
   white: "#FFF",

@@ -5,7 +5,6 @@ export const Wrapper = styled.span`
   display: flex;
   margin: 16px 0 0;
   ${media.tablet} {
-    /* margin: 0 0 20px 0; */
     grid-column: 2 / 3;
     grid-row: 2 / 3;
   }
