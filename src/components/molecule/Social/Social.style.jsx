@@ -15,11 +15,36 @@ export const Wrapper = styled.span`
   }
 `;
 
+export const Anchor = styled.a`
+  ${({ theme }) => css`
+    display: flex;
+    justify-content: start;
+    margin: 0 40px 0 0;
+    height: 20px;
+    width: auto;
+    ${media.desktop} {
+      justify-content: center;
+      border: 2px transparent solid;
+      border-radius: 50px;
+      padding: 8px;
+      height: 40px;
+      width: 40px;
+      :hover {
+        border: 2px solid ${theme.colors.primary};
+        background-color: ${theme.colors.primary};
+        cursor: pointer;
+        transition: 0.6s;
+      }
+    }
+  `}
+`;
+
 export const Image = styled.img`
   ${({ theme }) => css`
-    cursor: pointer;
-    margin: 0 40px 0 0;
-    width: auto;
-    height: 20px;
+    display: block;
+    align-self: flex-start;
+    ${media.desktop} {
+      align-self: center;
+    }
   `}
 `;

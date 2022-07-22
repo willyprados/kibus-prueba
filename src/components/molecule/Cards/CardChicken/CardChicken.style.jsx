@@ -15,6 +15,8 @@ export const Wrapper = styled.span`
       padding: 10px;
       &:hover {
         background-color: ${theme.colors.grayLight};
+        /* background-color: ${theme.colors.primary}; */
+        /* filter: opacity(25%); */
         transition: 0.6s;
       }
     }

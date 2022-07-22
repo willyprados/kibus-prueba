@@ -15,8 +15,9 @@ export const Anchor = styled.a`
     margin: 0 0 16px;
     text-decoration: none;
     :hover {
-      filter: opacity(85%);
-      transition: 0.6s;
+      background-color: ${theme.colors.gray};
+      transition: 1s;
+      /* filter: opacity(25%); */
     }
     ${media.tablet} {
       width: 90%;

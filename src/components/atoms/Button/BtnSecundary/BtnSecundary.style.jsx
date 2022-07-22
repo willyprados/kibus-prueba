@@ -26,11 +26,10 @@ export const Anchor = styled.a`
     :hover {
       border: 1px solid ${theme.colors.gray};
       color: ${theme.colors.gray};
+      transition: 1s;
       svg {
         border: 1px solid ${theme.colors.gray};
-        transition: 0.6s;
       }
-      filter: contrast(200%);
     }
     ${media.tablet} {
       width: 90%;
