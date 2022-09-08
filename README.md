@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://kibus-prueba.netlify.app/">
+  <a href="https://kibus.netlify.app/">
     <img alt="Kibus Logo" src="public/assets/img/logo_primary_color.svg" width="100" />
   </a>
 </p>
@@ -11,6 +11,6 @@ Jr Developer technical test project for **Rocket Digital** company. Built on Vit
 
 ## 🚀 To view the website you can click on the link below
 
-<a href="https://kibus-prueba.netlify.app/">kibus-prueba.netlify.app</a>
+<a href="https://kibus.netlify.app/">kibus.netlify.app</a>
 
 ## 💖 Thanks for reading me. See you!
